@@ -12,38 +12,38 @@
 </header>
 
 <main>
-    <!-- Sección Perros -->
-    <section>
-        <h2>Perros</h2>
-        <div class="grid">
-            <div class="card">
-                <img id="perros-img" src="img/labrador1.jpg" alt="Perros">
-                <h3>Perros</h3>
+    <div class="animales-grid">
+        <!-- Perros -->
+        <div class="animal-card">
+            <img src="img/labrador1.jpg" alt="Perros" id="perros-img">
+            <h3 onclick="toggleDropdown('perros-dropdown')">Perros ▼</h3>
+            <div class="dropdown" id="perros-dropdown">
+                <a href="labrador.html">Labrador Retriever</a>
+                <a href="pastor-aleman.html">Pastor Alemán</a>
             </div>
         </div>
-    </section>
 
-    <!-- Sección Gatos -->
-    <section>
-        <h2>Gatos</h2>
-        <div class="grid">
-            <div class="card">
-                <img id="gatos-img" src="img/siames1.jpg" alt="Gatos">
-                <h3>Gatos</h3>
+        <!-- Gatos -->
+        <div class="animal-card">
+            <img src="img/siames1.jpg" alt="Gatos" id="gatos-img">
+            <h3 onclick="toggleDropdown('gatos-dropdown')">Gatos ▼</h3>
+            <div class="dropdown" id="gatos-dropdown">
+                <a href="siames.html">Gato Siamés</a>
+                <a href="main-coon.html">Gato Main Coon</a>
+                <a href="bosque-noruega.html">Gato Bosque de Noruega</a>
             </div>
         </div>
-    </section>
 
-    <!-- Sección Caballos -->
-    <section>
-        <h2>Caballos</h2>
-        <div class="grid">
-            <div class="card">
-                <img id="caballos-img" src="img/percheron1.jpg" alt="Caballos">
-                <h3>Caballos</h3>
+        <!-- Caballos -->
+        <div class="animal-card">
+            <img src="img/percheron1.jpg" alt="Caballos" id="caballos-img">
+            <h3 onclick="toggleDropdown('caballos-dropdown')">Caballos ▼</h3>
+            <div class="dropdown" id="caballos-dropdown">
+                <a href="percheron.html">Caballo Percherón</a>
+                <a href="arabe.html">Caballo Árabe</a>
             </div>
         </div>
-    </section>
+    </div>
 </main>
 
 <footer>
@@ -53,4 +53,3 @@
 <script src="script.js"></script>
 </body>
 </html>
-

@@ -1,26 +1,57 @@
 body {
     font-family: Arial, sans-serif;
-    max-width: 800px;
-    margin: auto;
-    background: #f2f2f2;
-    padding: 20px;
-    line-height: 1.6;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
-header, footer {
-    text-align: center;
+header h1 {
     margin: 20px 0;
 }
 
-img {
-    width: 100%;
-    border-radius: 8px;
-    margin-bottom: 20px;
+.animales-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 30px 0;
 }
 
-a {
-    color: #0066cc;
+.animal-card {
+    width: 250px;
+    position: relative;
 }
-a:hover {
-    text-decoration: underline;
+
+.animal-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.animal-card h3 {
+    margin: 10px 0;
+    cursor: pointer;
+    background-color: #eee;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.dropdown {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.dropdown a {
+    padding: 8px;
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
 }
