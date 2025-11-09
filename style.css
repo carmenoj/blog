@@ -40,9 +40,10 @@ header h1 {
 
 .animal-card img {
     width: 100%;
-    height: auto;
+    height: 250px; /* todas las imágenes tendrán 250px de alto */
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    object-fit: cover; /* recorta la imagen manteniendo la proporción */
 }
 
 /* Título debajo de la imagen */

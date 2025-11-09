@@ -1,7 +1,3 @@
-// Mensaje de bienvenida
-window.onload = function() {
-    alert("¡Bienvenido a mi blog de razas favoritas de animales!");
-};
 
 // Galerías de imágenes automáticas
 const perrosImgs = ["img/labrador1.jpg","img/pastor1.jpg"];
