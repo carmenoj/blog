@@ -2,28 +2,55 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name=""viewport" content=""wdth=devide-width, initial-scale="1.0">
-    <title> Mis Razas Favoritas de Animales</title>
+    <title>Mis Razas Favoritas de Animales</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body> onload= "bienvenida()">
-    <header><h1>Mis Razas Favoritas de Animales</h1></header>
+<body>
 
-    <main>
+<header>
+    <h1>Mis Razas Favoritas de Animales</h1>
+</header>
+
+<main>
+    <!-- Sección Perros -->
+    <section>
         <h2>Perros</h2>
-        <ul>
-            <li><a href="labrador.html">Labrador Retriever</a></li>
-            <li><a href="pastor-aleman.html">Pastor Alemán</a></li>
-        </ul>
+        <div class="grid">
+            <div class="card">
+                <img id="perros-img" src="img/labrador1.jpg" alt="Perros">
+                <h3>Perros</h3>
+            </div>
+        </div>
+    </section>
 
+    <!-- Sección Gatos -->
+    <section>
         <h2>Gatos</h2>
-        <ul>
-            <li><a href="siames.html">Gato Siamés</a></li>
-        </ul>
-    </main>
+        <div class="grid">
+            <div class="card">
+                <img id="gatos-img" src="img/siames1.jpg" alt="Gatos">
+                <h3>Gatos</h3>
+            </div>
+        </div>
+    </section>
 
-    <footer><p>© 2025 Blog - Mis Razas Favoritas</p></footer>
-    <script src="script.js"></script>
+    <!-- Sección Caballos -->
+    <section>
+        <h2>Caballos</h2>
+        <div class="grid">
+            <div class="card">
+                <img id="caballos-img" src="img/percheron1.jpg" alt="Caballos">
+                <h3>Caballos</h3>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 Blog - Mis Razas Favoritas</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
 
