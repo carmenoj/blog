@@ -24,7 +24,7 @@ header h1 {
     width: 400px;          /* ancho fijo */
     height: 300px;         /* alto fijo */
     border: 3px solid #3498db; /* marco azul finito */
-    border-radius: 10px;   /* opcional, bordes redondeados */
+    border-radius: 10px;   /* bordes redondeados */
     object-fit: cover;     /* recorta la imagen manteniendo proporción */
 }
 
