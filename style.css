@@ -13,6 +13,33 @@ header h1 {
     color: #2c3e50;
 }
 
+/* Contenedor de la raza */
+.raza-card {
+    display: inline-block;
+    margin: 30px auto;
+}
+
+/* Imagen con marco azul y tamaño fijo */
+.raza-card img {
+    width: 400px;          /* ancho fijo */
+    height: 300px;         /* alto fijo */
+    border: 3px solid #3498db; /* marco azul finito */
+    border-radius: 10px;   /* opcional, bordes redondeados */
+    object-fit: cover;     /* recorta la imagen manteniendo proporción */
+}
+
+/* Texto debajo de la imagen */
+.raza-card p {
+    width: 400px;           /* mismo ancho que la imagen */
+    background-color: #d6eaf8; /* azul clarito */
+    color: #000;
+    margin: 0;
+    padding: 10px;
+    border-radius: 0 0 10px 10px; /* bordes redondeados abajo */
+    box-sizing: border-box;
+    text-align: center;
+}
+
 /* Grid de animales */
 .animales-grid {
     display: flex;
